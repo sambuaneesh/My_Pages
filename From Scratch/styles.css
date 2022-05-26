@@ -1,3 +1,14 @@
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3882F6;
+    transition: 0.5s;
+}
+
 h2 {
     margin: 0;
     border: 0;
@@ -16,6 +27,12 @@ img {
     max-height: 200px;
     width: auto;
     height: auto;
+    transition: border 1s;
+}
+
+img:hover {
+    border: 10px white solid;
+    border-radius: 5px;
 }
 
 .top {
@@ -53,6 +70,17 @@ img {
     background-color: #3882F6;
     border: 10px;
     padding: 5px 25px 5px 25px;
+    transition: 0.5s;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: #3882F6;
+}
+
+.btn1:active {
+    background-color: #1F2937;
+    color: white;
 }
 
 .hctext {
@@ -61,6 +89,13 @@ img {
 
 .hctext>h1 {
     font-size: 3em;
+    transition: 1.5s;
+    opacity: 0.8;
+}
+
+.hctext>h1:hover {
+    font-size: 4em;
+    opacity: 1;
 }
 
 li {
@@ -74,6 +109,13 @@ li {
     height: 70px;
     padding: 70px;
     border-radius: 20px;
+    transition: 1s;
+}
+
+.frame:hover {
+    width: 80px;
+    height: 90px;
+    padding: 80px;
 }
 
 .tmiddle {
@@ -162,6 +204,19 @@ li {
     background-color: #3882F6;
     border: 3px solid white;
     padding: 5px 25px 5px 25px;
+}
+
+.btn2:hover {
+    background-color: white;
+    /* border-color: #3882F6; */
+    color: #3882F6;
+    transition: 0.5s;
+}
+
+.btn2:active {
+    background-color: #3882F6;
+    color: white;
+    border-color: #3882F6;
 }
 
 footer {
